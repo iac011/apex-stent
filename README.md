@@ -1,8 +1,8 @@
-# APEX Stent Website
+# APEX STENT Website
 
-This repository hosts the official website of the **APEX Stent Project**, a research initiative developing smart, bioabsorbable vascular scaffolds with AI-optimized microstructures.
+This repository hosts the official website of the **APEX STENT Project**, a research initiative developing smart, bioabsorbable vascular scaffolds with AI-optimized microstructures.
 
-🌐 **Live Site**: [https://your-username.github.io/apex-stent](https://your-username.github.io/apex-stent)
+🌐 **Live Site**: [APEX-STENT Program](https://iac011.github.io/apex-stent/)
 
 ---
 
