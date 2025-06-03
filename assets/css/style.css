@@ -1,16 +1,67 @@
-body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
-header { background: #003366; color: white; padding: 1rem 0; }
-nav ul { list-style: none; display: flex; justify-content: flex-end; padding-right: 2rem; }
-nav ul li { margin-left: 20px; }
-nav ul li a { color: white; text-decoration: none; }
-.hero { background: linear-gradient(135deg, #005f99, #0077b6); color: white; text-align: center; padding: 4rem 2rem; }
-.btn { display: inline-block; background: #fff; color: #0077b6; padding: 0.6rem 1.2rem; border-radius: 5px; text-decoration: none; }
-.about, main.container { padding: 2rem; background: white; max-width: 960px; margin: auto; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(135deg, #005f99, #0077b6);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #0077b6;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.about, .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
-  padding-top: 25px;
+  padding-bottom: 56.25%;
   height: 0;
+  margin-bottom: 2rem;
 }
 
 .video-wrapper iframe {
@@ -22,5 +73,3 @@ nav ul li a { color: white; text-decoration: none; }
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
-
-footer { background: #eee; text-align: center; padding: 1rem 0; margin-top: 2rem; }
